@@ -1,8 +1,7 @@
 # Konvu_assignment_Loic
 
 
-Below is a **sample** README you can adapt for your GitHub repository. Feel free to tweak the wording, structure, or formatting to best suit your personal style and organizational requirements.
-
+[![CI](https://github.com/LoicSteve/Konvu_assignment_Loic/actions/workflows/main.yml/badge.svg)](https://github.com/LoicSteve/Konvu_assignment_Loic/actions/workflows/main.yml)
 ---
 
 # Konvu Java Vulnerability Database
