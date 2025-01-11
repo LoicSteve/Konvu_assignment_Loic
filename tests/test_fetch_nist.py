@@ -68,7 +68,6 @@ def test_fetch_nist_data(mock_get, tmp_path):
     actual_calls = [call.args for call in mock_get.call_args_list]
     assert actual_calls == expected_calls
 
-    # (Optional) Check that the temporary .gz files were removed
     # If your code removes them, you can verify they don't exist in the current directory
     for year in ["2023", "2024"]:
         gz_name = f"nvdcve-1.1-{year}.json.gz"

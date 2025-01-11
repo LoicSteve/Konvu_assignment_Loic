@@ -2,7 +2,7 @@
 
 FROM python:3.11-slim
 
-# 1) Install make (and optionally other packages like git, build-essential, etc.)
+# 1) Installations
 RUN apt-get update && apt-get install -y --no-install-recommends \
     make \
     sqlite3 \
@@ -20,5 +20,5 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # 5) Copy the rest of the files
 COPY . .
 
-# 6) Default command: drop to a shell (so you can run `make` manually)
+# 6) Default command: drop to a shell (so we can run `make` manually)
 CMD ["/bin/bash"]

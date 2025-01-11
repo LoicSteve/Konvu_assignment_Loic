@@ -9,7 +9,6 @@ def initialize_db():
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
-    # We remove 'description TEXT' from the schema
     cursor.execute(
         """
         CREATE TABLE IF NOT EXISTS vulnerabilities (
@@ -43,7 +42,6 @@ def insert_or_update_vulnerability(vuln_data: Dict):
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
-    # 'description' is removed; only these columns remain:
     cursor.execute(
         """
         INSERT INTO vulnerabilities (

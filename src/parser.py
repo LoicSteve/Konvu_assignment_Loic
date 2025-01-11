@@ -32,10 +32,6 @@ def parse_nvd_item(nvd_item: dict) -> dict:
     # Extract version ranges and store as JSON
     version_json = extract_structured_versions(english_desc)
 
-    # If we ended up with an empty version listing, you can decide whether to skip or not
-    # For example:
-    # if not version_json:
-    #     return {}
 
     return {
         "cve_id": cve_id,
