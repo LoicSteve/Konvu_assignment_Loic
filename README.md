@@ -19,7 +19,6 @@
 10. [CI Pipeline](#ci-pipeline)  
 11. [AI Tools & Assistance](#ai-tools--assistance)  
 12. [Future Improvements](#future-improvements)  
-13. [License](#license)
 
 ---
 
@@ -88,7 +87,7 @@ Konvu_assignment/
 
 2. **(Optional) Create a virtual environment**:
    ```bash
-   python3 -m venv venv
+   python3 -m venv venv   # In my case konvu
    source venv/bin/activate   # Linux/Mac
    # or
    venv\Scripts\activate.bat  # Windows
