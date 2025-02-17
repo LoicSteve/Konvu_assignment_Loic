@@ -1,4 +1,4 @@
-# Konvu Java Vulnerability Database 
+# Java Vulnerability Database 
 [![CI](https://github.com/LoicSteve/Konvu_assignment_Loic/actions/workflows/main.yml/badge.svg)](https://github.com/LoicSteve/Konvu_assignment_Loic/actions/workflows/main.yml)
 
 
